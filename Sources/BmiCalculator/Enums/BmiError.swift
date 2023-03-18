@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// ``BmiStatus`` is an enum of BMI Errors.
+/// ``BmiError`` is an enum of Body Mass Index (BMI) Errors.
 public enum BmiError: Error {
     case invalidIndex
 }
