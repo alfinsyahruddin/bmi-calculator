@@ -27,10 +27,10 @@ jobs:
       - name: Build DocC
         run: |
           xcodebuild docbuild -scheme BmiCalculator \
-            -derivedDataPath /tmp/docbuild \
+            -derivedDataPath /tmp/doc-build \
             -destination 'generic/platform=iOS';
           $(xcrun --find docc) process-archive \
-            transform-for-static-hosting /tmp/docbuild/Build/Products/Debug-iphoneos/BmiCalculator.doccarchive \
+            transform-for-static-hosting /tmp/doc-build/Build/Products/Debug-iphoneos/BmiCalculator.doccarchive \
             --hosting-base-path bmi-calculator \
             --output-path docs;
           echo "<script>window.location.href += \"/documentation/bmicalculator\"</script>" > docs/index.html;
