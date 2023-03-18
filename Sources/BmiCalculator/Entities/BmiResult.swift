@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// ``BmiResult`` is a struct that represents the result of BMI calculation.
 public struct BmiResult {
     public var index: Double
     public var status: BmiStatus
