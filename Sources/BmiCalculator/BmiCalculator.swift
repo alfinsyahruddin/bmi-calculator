@@ -1,6 +1,8 @@
 import Foundation
 
 public class BmiCalculator {
+    
+    /// This method is used to create BmiCalculator instance.
     public init() {}
     
     /**
