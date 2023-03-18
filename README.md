@@ -1,3 +1,3 @@
 # BmiCalculator
 
-A description of this package.
+Demo app for DocC Tutorial (https://blog.alfin.dev/article/docc-tutorial)
