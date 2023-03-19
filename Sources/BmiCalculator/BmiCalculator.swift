@@ -2,20 +2,8 @@ import Foundation
 
 public class BmiCalculator {
     
-    /// This method is used to create BmiCalculator instance.
     public init() {}
-    
-    /**
-     This method is for calculating Body Mass Index (BMI).
-     
-     - Parameters:
-         - weight: The weight of body (in centimeters).
-         - height: The height of body (in meters).
-      
-     - Returns: The result of BMI calculation.
-     
-     - Throws: `BmiError.invalidIndex` if failed to get status due to invalid BMI index.
-     */
+
     public func calculateBmi(
         weight: Double,
         height: Double
@@ -28,16 +16,6 @@ public class BmiCalculator {
         )
     }
     
-    /**
-     This method is for get status of Body Mass Index (BMI).
-     
-     - Parameters:
-         - index: The Body Mass Index (BMI).
-     
-     - Returns: The status of Body Mass Index (BMI).
-     
-     - Throws: `BmiError.invalidIndex` if failed to get status due to invalid BMI index.
-     */
     public func getBmiStatus(_ index: Double) throws -> BmiStatus {
         switch index {
         case ..<18.5:

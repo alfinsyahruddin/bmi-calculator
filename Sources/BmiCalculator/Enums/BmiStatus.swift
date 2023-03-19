@@ -7,7 +7,6 @@
 
 import Foundation
 
-/// ``BmiStatus`` is an enum of Body Mass Index (BMI) statuses.
 public enum BmiStatus {
     case underWeight
     case normal
