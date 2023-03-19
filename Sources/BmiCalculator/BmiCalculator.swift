@@ -9,7 +9,7 @@ public class BmiCalculator {
      This method is for calculating Body Mass Index (BMI).
      
      - Parameters:
-         - weight: The weight of body (in centimeters).
+         - weight: The weight of body (in kilograms).
          - height: The height of body (in meters).
       
      - Returns: The result of BMI calculation.
